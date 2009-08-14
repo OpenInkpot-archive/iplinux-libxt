@@ -39,7 +39,7 @@ build-stamp:
 
 	test -d obj-$(DEB_BUILD_GNU_TYPE) || mkdir obj-$(DEB_BUILD_GNU_TYPE)
 	cd obj-$(DEB_BUILD_GNU_TYPE) && \
-	../configure --prefix=/usr --mandir=\$${prefix}/share/man \
+	../autogen.sh --prefix=/usr --mandir=\$${prefix}/share/man \
 	             --infodir=\$${prefix}/share/info $(confflags) \
 				 --with-appdefaultdir=/etc/X11/app-defaults \
 				 --disable-malloc0returnsnull \

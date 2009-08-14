@@ -3,7 +3,7 @@ Section: gui
 Priority: optional
 Maintainer: Yauhen Kharuzhy <jekhor@gmail.com>
 Build-Depends: debhelper (>= 5.0.0), libx11-dev (>= 1:0.99.2), libsm-dev (>= 1:0.99.1), libice-dev (>= 1:0.99.0), pkg-config, quilt, autoconf, automake, libtool
-XCS-Cross-Host-Build-Depends: debhelper (>= 5.0.0), pkg-config, quilt, x11proto-core-dev, autoconf, automake, libtool
+XCS-Cross-Host-Build-Depends: debhelper (>= 5.0.0), pkg-config, quilt, x11proto-core-dev, autoconf, automake, libtool, xorg-util-macros
 XCS-Cross-Build-Depends: libx11-dev (>= 1:0.99.2), libsm-dev (>= 1:0.99.1), libice-dev (>= 1:0.99.0)
 Standards-Version: 3.7.2
 XS-Vcs-Git: git://git.debian.org/git/pkg-xorg/lib/libxt

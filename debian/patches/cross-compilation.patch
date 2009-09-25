@@ -1,0 +1,11 @@
+--- a/util/Makefile.am
++++ b/util/Makefile.am
+@@ -14,7 +14,7 @@
+ 	StrDefs.ht \
+ 	string.list
+ 
+-makestrs_CFLAGS = $(XT_CFLAGS)
++makestrs_CFLAGS =
+ makestrs_SOURCES = makestrs.c
+ 
+ 

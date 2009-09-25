@@ -1,3 +1,11 @@
+libxt (1:1.0.6-2) asimov; urgency=low
+
+  * Fix cross-compilation (added patches/cross-compilation.patch)
+  * Fix build-deps (makestr.c needs host libx11-dev and libx11proto-core-dev).
+  * Packaging cleanup.
+
+ -- Mikhail Gusarov <dottedmag@dottedmag.net>  Sat, 26 Sep 2009 03:13:36 +0700
+
 libxt (1:1.0.6-1) asimov; urgency=low
 
   * IPlinux port
